@@ -403,6 +403,22 @@ qnas = [{'anwsers': ['Napetost na njem je sorazmerna toku.',
   ],
   'correct': 0,
   'question': 'Kako deluje pospeškometer?'},
+  {'anwsers': [
+    '22',
+    '15',
+    '23',
+    '20'
+  ],
+  'correct': 0,
+  'question': 'Koliko urinih period se izvaja cevovodena zanka z latenco iteracije IL=4, inic. intervalom II=2 in številom obhodov (trip count) TC=10? (IL + (TC-1)*II)'},
+  {'anwsers': [
+    'Velik kos pomnilnika razdeli na več manjših instanc. Block, Cyclic, Complete.',
+    'Velik kos pomnilnika razdeli na več manjših instanc. Complete, Clock, Parallel.',
+    'Več manjših kosov pomnilnika združi v enega velikega. Block, Cyclic, Complete.',
+    'Več manjših kosov pomnilnika združi v enega velikega. Complete, Clock, Parallel.',
+  ],
+  'correct': 0,
+  'question': 'Za kaj se uporablja direktiva ARRAY_PARTITION in katere tri opcije so na voljo?'},
  {'anwsers': ['linearno vezje, ', 'RC vezje, ', 'LC vezje'],
   'correct': 1,
   'question': 'Katero vezje deluje kot nizki filter?'}]
