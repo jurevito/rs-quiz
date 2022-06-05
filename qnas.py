@@ -1,7 +1,6 @@
 qnas = [{'anwsers': ['Napetost na njem je sorazmerna toku.',
               'Napetost na njem je sorazmerna spremembi toka.',
-              'Tok na njem je sorazmeren spremembi napetosti.  (i(t) = C * '
-              'du(t) / dt)',
+              'Tok na njem je sorazmeren spremembi napetosti.',
               'Tok na njem je sorazmeren integralu napetosti.'],
   'correct': 2,
   'question': 'Kako deluje kondenzator?'},
@@ -20,12 +19,10 @@ qnas = [{'anwsers': ['Napetost na njem je sorazmerna toku.',
   'correct': 3,
   'question': 'Za koliko se fazi toka in napetosti na tuljavi razlikujeta (ϕi '
               '- ϕu)?'},
- {'anwsers': ['absolutna vrednost Zk narašča, faza pa upada.',
-              '"absolutna vrednost Zk in faza upadata. ( Zk = sqrt(R / jwC); '
-              'faza = arctan( - wCR ) )"',
-              'absolutna vrednost Zk upada, faza pa je konstantna.  (v enačbi '
-              'ni realnega dela, tako da faza ostaja ves čas -45°) ',
-              'absolutna vrednost Zk narašča, faza pa je konstantna.'],
+ {'anwsers': ['Absolutna vrednost Zk narašča, faza pa upada.',
+              'Absolutna vrednost Zk in faza upadata.',
+              'Absolutna vrednost Zk upada, faza pa je konstantna.',
+              'Absolutna vrednost Zk narašča, faza pa je konstantna.'],
   'correct': 2,
   'question': 'Na RC-liniji s povečevanjem frekvence:'},
  {'anwsers': ['30%', '33%', '36% ( (1+2+1) / (7 + 4) = 36 %)', '39%'],
@@ -93,9 +90,7 @@ qnas = [{'anwsers': ['Napetost na njem je sorazmerna toku.',
   'question': 'Kolikšna je karakteristična impedanca linije (R=50mΩ/m, '
               'L=500nH/m, C=50pF/m, G=0) pri 4MHz?'},
  {'anwsers': ['Pri visokih frekvencah se poveča prevodnost vodnika.',
-              'Pri visokih frekvencah se poveča upornost vodnika. (na zunanji '
-              'strani vodnika se zbira več toka kot notri, zato je pri višji '
-              'frekvenci dejansko uporabna površina manjša)',
+              'Pri visokih frekvencah se poveča upornost vodnika.',
               'Pri visokih frekvencah se tok izogiba površine vodnika.',
               'Posledica prekomernega sončenja.'],
   'correct': 1,
@@ -355,7 +350,7 @@ qnas = [{'anwsers': ['Napetost na njem je sorazmerna toku.',
   'correct': 0,
   'question': 'Kakšna je valovna dolžina Bluetooth signala?'},
   {'anwsers': ['Le liho število okvarjenih bitov.',
-              'Sodo in liho število okvarjenih bitov.'
+              'Sodo in liho število okvarjenih bitov.',
               'Le sodo število okvarjenih bitov.'],
   'correct': 0,
   'question': 'Katero napako zazna pariteta? (če uporabljamo 1 paritetni bit)'},
